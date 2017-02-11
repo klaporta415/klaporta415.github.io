@@ -3,8 +3,10 @@ html {
 }
 body {
 	background-color: lightblue;
-	background-image: url("yellowbike.jpg");
-	display: inline-block;
+	background-image: url("yellowbike.jpg") no-repeat;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 h1 {
@@ -19,11 +21,11 @@ a:visited {
 	color: hotpink;
 }
 
-.bikeshops {
-	background-image: url("outsideworkingbikes.JPG");
-}
-
 #mybike {
 	margin-right: auto;
 	margin-left: auto;
+}
+
+.submission {
+	background-image: url(outsideworkingbikes.JPG);
 }
