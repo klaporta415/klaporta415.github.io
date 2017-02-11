@@ -3,14 +3,15 @@ html {
 }
 body {
 	background-color: lightblue;
-	background-image: url("yellowbike.jpg") no-repeat;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 3em;
 }
 
 h1 {
 	color: maroon;
+	font-family: Lucida;
 }
 
 a:link {
@@ -24,8 +25,18 @@ a:visited {
 #mybike {
 	margin-right: auto;
 	margin-left: auto;
+	width: 350px;
+	padding-left: 20px;
+	padding-right:20px;
+	border-style: solid;
+	border-color: yellow;
+	border-width: 5px;
 }
 
 .submission {
-	background-image: url(outsideworkingbikes.JPG);
+	background-image: url(yellowbike.jpg);
+}
+
+footer {
+	margin: 0 auto;
 }
