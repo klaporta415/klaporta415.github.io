@@ -1,7 +1,29 @@
+html {
+	font-family: Helvetica;
+}
 body {
 	background-color: lightblue;
+	background-image: url("yellowbike.jpg");
+	display: inline-block;
 }
 
 h1 {
-	color: red;
+	color: maroon;
+}
+
+a:link {
+	color: darkblue;
+}
+
+a:visited {
+	color: hotpink;
+}
+
+.bikeshops {
+	background-image: url("outsideworkingbikes.JPG");
+}
+
+#mybike {
+	margin-right: auto;
+	margin-left: auto;
 }
